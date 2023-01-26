@@ -80,6 +80,7 @@ def readLineSeperatedFile_2(filename:str) -> list:
                 if len(post) == 4:
                     posts.append(post)
                     post = []
+
 readLineSeperatedFile_2("somefile.txt")
 print(posts)
 
